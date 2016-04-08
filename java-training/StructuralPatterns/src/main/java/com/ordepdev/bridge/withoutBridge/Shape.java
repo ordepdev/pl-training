@@ -1,0 +1,6 @@
+package com.ordepdev.bridge.withoutBridge;
+
+public abstract class Shape {
+
+    abstract public void applyColor();
+}
