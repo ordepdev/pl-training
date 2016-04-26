@@ -12,10 +12,10 @@ Functional Interface
   - It is not mandatory, for legacy reasons
   - The compiler will tell us if an annotated interface is functional or not
  * A functional interface have four categories:
-  - Consumers
-  - Suppliers
-  - Functions
-  - Predicates
+  - Consumers: a consumer consumes an object, and does not return anything (ex: System.out::println)
+  - Suppliers: a supplier provides an object, takes no parameter (ex: Person::new)
+  - Functions: a function takes an object and returns another object (ex: Person::getAge)
+  - Predicates: a predicate takes an object and returns a boolean (ex: person -> person.getAge() > 20)
 
 Stream: Definitions
 -------------------
