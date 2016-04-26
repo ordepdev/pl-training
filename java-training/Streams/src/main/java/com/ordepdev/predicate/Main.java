@@ -1,4 +1,4 @@
-package com.ordepdev.streams.predicate;
+package com.ordepdev.predicate;
 
 public class Main {
 

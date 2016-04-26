@@ -1,4 +1,4 @@
-package com.ordepdev.streams;
+package com.ordepdev;
 
 public class Person {
 

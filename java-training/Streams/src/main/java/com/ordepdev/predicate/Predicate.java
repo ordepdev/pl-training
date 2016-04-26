@@ -1,4 +1,4 @@
-package com.ordepdev.streams.predicate;
+package com.ordepdev.predicate;
 
 @FunctionalInterface
 public interface Predicate<T> {

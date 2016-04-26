@@ -1,6 +1,6 @@
-package com.ordepdev.streams.comparator;
+package com.ordepdev.comparator;
 
-import com.ordepdev.streams.Person;
+import com.ordepdev.Person;
 
 import java.util.function.Function;
 

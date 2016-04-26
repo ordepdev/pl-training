@@ -1,4 +1,4 @@
-package com.ordepdev.streams.comparator;
+package com.ordepdev.comparator;
 
 import java.util.function.Function;
 

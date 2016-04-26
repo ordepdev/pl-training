@@ -1,4 +1,4 @@
-package com.ordepdev.streams.map;
+package com.ordepdev.map;
 
 import java.util.*;
 
@@ -8,8 +8,8 @@ public class MainMerge {
         Map<String, List<String>> map1 = new HashMap<>();
         Map<String, List<String>> map2 = new HashMap<>();
 
-        map1.put("one", new ArrayList<String>(Arrays.asList("two", "three")));
-        map2.put("two", new ArrayList<String>(Arrays.asList("four", "five")));
+        map1.put("one", Arrays.asList("two", "three"));
+        map2.put("two", Arrays.asList("four", "five"));
 
         map2.forEach(
                 (key, value) ->
